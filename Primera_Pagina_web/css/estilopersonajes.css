@@ -14,6 +14,8 @@ h2 {
    color: rgb(66, 79, 196);
    margin-top: 2% ;
    margin-left: 2%;
+   background-color: white;
+   width:max-content;
 
    }
    h3{
@@ -23,16 +25,12 @@ h2 {
        color: rgb(66, 79, 196);
        margin-top: 2% ;
        margin-left: 2%;
+       background-color: white;
+       width:max-content;
        
-       
-
-   }
-   .foto{
-       position: absolute;
-       left: 850px;
-       top: 200px ;
       
-   } 
+   }
+ 
    body{
        
        background-size: cover;
@@ -42,6 +40,7 @@ h2 {
    }
    p{
        margin-top: 1%;
+       
    
    };
    .margenfinal{
@@ -95,3 +94,16 @@ main *:last-child {
   outline: none;
   box-shadow: 0 0 0 3px #4e85c0;
 }
+@media (max-width: 768px){
+  body{
+    background-image: none;
+    background-image: url(../images/fondo.jpg);
+    background-size: cover;
+    height: 100%;
+
+  }
+
+    
+    
+
+  }
