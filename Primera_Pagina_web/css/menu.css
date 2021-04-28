@@ -25,7 +25,7 @@ header label:hover {
 }
 .menu_gral {
     font-family: verdana, sans sherif;
-    width: 80%;
+    width: 100%;
     margin-left: 1.5rem;
 }
 .menu_gral ul {
@@ -94,7 +94,7 @@ header label:hover {
         text-align: center;
         font-size: 0;
         z-index:1;
-        flex-direction:column;
+        flex-direction:row;
     }
     .menu li {
         border-top: 1 px solid #fff;
