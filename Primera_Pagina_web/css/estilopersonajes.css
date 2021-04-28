@@ -11,9 +11,18 @@ h2 {
    font-family: Verdana;
    font-size: 25px ;
    text-decoration: underline;
-   color: rgb(6, 6, 143);
-   margin-top: 80px ;
-   margin-left: 20px;
+   color: rgb(66, 79, 196);
+   margin-top: 2% ;
+   margin-left: 2%;
+
+   }
+   h3{
+       font-family: verdana;
+       font-size: 20px ;
+       text-decoration:underline ;
+       color: rgb(66, 79, 196);
+       margin-top: 2% ;
+       margin-left: 2%;
 
    }
    .foto{
@@ -23,13 +32,16 @@ h2 {
       
    } 
    body{
+       
        background-size: cover;
        height: 100%;
-         f
+         
 
    }
-   /*p{
+   p{
+       margin-top: 1%;
    
-    filter: blur(4px);
-    
-   };*/
+   };
+   .margenfinal{
+       padding-bottom: 5%;
+   }
