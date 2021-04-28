@@ -98,6 +98,7 @@ header label:hover {
     }
     .menu li {
         border-top: 1 px solid #fff;
+        position:relative;
     }
     .menu_gral > ul li {
         display: flex;
