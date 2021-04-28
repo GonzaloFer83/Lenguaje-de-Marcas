@@ -16,7 +16,6 @@ https://www.html6.es/t11_bordes.html
 
 Barra de busqueda
 https://webdesign.tutsplus.com/es/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069
-https://www.youtube.com/watch?v=z8qCK-fFQvc
 
 
 Adaptacion a movil y otros dispositivos...
