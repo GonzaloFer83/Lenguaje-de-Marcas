@@ -1,0 +1,150 @@
+div#contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #006;
+}
+
+/*---------------SECTION------------------*/
+section {
+    border: 1px solid greenyellow;
+    margin-top: 17px;
+    margin-left: 4px;
+    max-width: 70%;
+    float: left;
+}
+section header {
+    background-color: black;
+    height: 102px;
+}
+/*---------------SECTION------------------*/
+article {
+    margin-left: 14px;
+    border: 1px solid blue;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    max-width: 95%;
+    background-color: gray;
+}
+
+footer{
+    clear: both;
+}
+
+header img {
+    margin-top: 20px;
+    margin-left: 6px;
+}
+span#choose{
+        position: absolute;
+        margin-left: 50px;
+        font-size: 27px;
+        margin-top: 37px;
+        color: yellow;
+        font-family: sans-serif;
+        white-space: nowrap;
+}
+#SvsJ{
+    width: 100%;
+}
+div#Sith {
+    border: 2px solid;
+    width: 50%;
+    height: 202px;
+    text-align: center;
+    display: inline-block;
+}
+div#Jedi {
+    border: 2px solid;
+    width: 47%;
+    height: 202px;
+    text-align: center;
+    display: inline-block;
+}
+h2 {
+    margin-right: -5px;
+    margin-top: 0px;
+}
+li {
+    margin-right: 39px;
+}
+h2#red {
+    color: white;
+    text-shadow: 2px 2px 4px red;
+}
+h2#li{
+    margin-right: 39px;
+    color: firebrick;
+    font-weight: bold;
+}
+ul {
+    list-style: none;
+    color: firebrick;
+    font-weight: bold;
+}
+
+h2#blue {
+    color: white;
+    text-shadow: 2px 2px 4px blue;
+}
+
+ul#blue{
+    color:blue;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+img#redes {
+    width: 85px;
+}
+#yoda {
+    width: 58%;
+    margin-left: 123px;
+    height: 165px;
+}
+h3 {
+    margin-left: 95px;
+    font-family: emoji;
+}
+
+
+/*---------------------------------------------------ASIDE-------------------------------------------*/
+aside {
+    border: 1px solid red;
+    margin-top: 17px;
+    float: left;
+    max-width: 26%;
+    width: 26%;
+    margin-left: 25px;
+}
+
+input.search-field {
+    padding: 6px;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+aside p {
+    margin-top: 6px;
+    margin-left: 116px;
+    margin-block-start: 0;
+}
+img#resum {
+    margin-left: 8px;
+    float: left;
+    width: 100px;
+    height: 116px;
+}
+aside img{
+    margin-left: 30px;
+    height: 221px;
+}
+#pform{
+    padding: 6px;
+    margin: 0;
+    text-align: center;
+
+}
