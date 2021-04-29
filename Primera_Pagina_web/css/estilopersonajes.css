@@ -34,12 +34,12 @@ h2 {
      width: 40%;
      height: 100%;
    float: right;
-    margin-top: 40px ;
+    margin-top: 10px ;
     
    }
    .fotohistorias{
      width:70%;
-     height: 40%;
+    margin-top:  50px;
      float: left;
      border-radius: 20px;
 
@@ -117,6 +117,12 @@ main *:last-child {
     height: 100%;
 
   }
+  p{
+    width: 70%;
+    text-align: justify;
+    margin-left: 60px;
+  }
+  
 
     
     
