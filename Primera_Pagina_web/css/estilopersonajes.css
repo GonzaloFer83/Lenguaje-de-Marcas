@@ -121,8 +121,44 @@ main *:last-child {
     width: 70%;
     text-align: justify;
     margin-left: 60px;
+
   }
-  
+  .divresponsive1{
+    margin-top: 20px;
+    width: 298px;
+    height: 168px;
+    margin-left: 100px;
+
+  background-image: url(../images/fondo_anakin.jpg) ;
+  background-size: contain ;
+}
+.divresponsive2{
+  margin-top: 20px;
+  width: 298px;
+  height: 168px;
+  margin-left: 100px;
+
+background-image: url(../images/leia_fondo.jpg) ;
+background-size: contain ;
+}
+.divresponsive3{
+  margin-top: 20px;
+  width: 298px;
+  height: 168px;
+  margin-left: 100px;
+
+background-image: url(../images/lukeresponsive.jpg) ;
+background-size: contain ;
+}
+.divresponsive4{
+  margin-top: 20px;
+  width: 298px;
+  height: 168px;
+  margin-left: 100px;
+
+background-image: url(../images/obiwan_kenobi_fondo.jpg) ;
+background-size: contain ;
+}
 
     
     
