@@ -4,12 +4,12 @@ div#contenedor {
     width: 960px;
     margin-bottom: 10px;
     padding: 10px;
-    border: 2px solid #006;
+    /*border: 2px solid #006;*/
 }
 
 /*---------------SECTION------------------*/
 section {
-    border: 1px solid greenyellow;
+    /*border: 1px solid greenyellow;*/
     margin-top: 17px;
     margin-left: 4px;
     max-width: 70%;
@@ -19,14 +19,15 @@ section header {
     background-color: black;
     height: 102px;
 }
-/*---------------SECTION------------------*/
+/*---------------SECTION -> ARTICLE ------------------*/
 article {
     margin-left: 14px;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     margin-top: 13px;
     margin-bottom: 13px;
     max-width: 95%;
-    background-color: gray;
+    background-color: black;
+    background: -webkit-linear-gradient( 50deg, blue, black, red);
 }
 
 footer{
@@ -46,15 +47,21 @@ span#choose{
         font-family: sans-serif;
         white-space: nowrap;
 }
-#SvsJ{
-    width: 100%;
+#ImageSith{
+    width: 50%;
+    margin-top: 4px;
+    float: left;
+    margin-left: 4px;
+    margin-right: 10px;
 }
+
 div#Sith {
     border: 2px solid;
     width: 50%;
     height: 202px;
     text-align: center;
     display: inline-block;
+    background: linear-gradient(#e66465, #000000);
 }
 div#Jedi {
     border: 2px solid;
@@ -62,7 +69,25 @@ div#Jedi {
     height: 202px;
     text-align: center;
     display: inline-block;
+    background: linear-gradient(#64e0e6, #61719e);
 }
+#ImageJedi{
+    width: 50%;
+    margin-top: 4px;
+    float: right;
+    margin-left: 4px;
+    margin-right: 10px;
+}
+
+.textYellow {
+    font-style: oblique;
+    text-align: center;
+    font-family: sans-serif;
+    color: yellow;
+    font-weight: bold;
+    text-shadow: 1px -7px 16px white;
+}
+
 h2 {
     margin-right: -5px;
     margin-top: 0px;
@@ -95,9 +120,6 @@ ul#blue{
     font-weight: bold;
 }
 
-ul {
-    list-style: none;
-}
 img#redes {
     width: 85px;
 }
@@ -106,20 +128,61 @@ img#redes {
     margin-left: 123px;
     height: 165px;
 }
-h3 {
-    margin-left: 95px;
-    font-family: emoji;
+/*..................................SECTION --> FOOTER..................................................................*/
+
+section > footer > p {
+    text-align: justify;
+    padding: 16px;
+    font-family: -webkit-pictograph;
+    width: 52%;
+    float: left;
+    color: black;
+    text-indent: 20px;
+    background-color: white;
+    border: 2px dashed wheat;
+    border-radius: 40px;
+    margin-left: 10px;
 }
 
 
+div#banner {
+    width: 235px;
+    height: 282px;
+    margin-top: 17px;
+    float: left;
+    margin-left: 10px;
+    background-color: #27ff00;
+    border: 2px solid;
+}
+
+div#banner p {
+    text-align: center;
+    font-family: -webkit-pictograph;
+}
+
+div#banner h4 {
+    text-decoration: line-through;
+    margin-left: 22px;
+}
+
+div#banner h4:hover {
+    text-decoration: none;
+    cursor: progress;
+}
+
 /*---------------------------------------------------ASIDE-------------------------------------------*/
 aside {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     margin-top: 17px;
     float: left;
     max-width: 26%;
     width: 26%;
     margin-left: 25px;
+}
+h3 {
+    margin-left: 95px;
+    text-decoration: underline;
+    font-family: emoji;
 }
 
 input.search-field {
@@ -127,13 +190,10 @@ input.search-field {
     margin-left: 22px;
     margin-top: 10px;
 }
-aside p {
-    margin-top: 6px;
-    margin-left: 116px;
-    margin-block-start: 0;
-}
+
 img#resum {
     margin-left: 8px;
+    margin-right: 10px;
     float: left;
     width: 100px;
     height: 116px;
@@ -147,4 +207,32 @@ aside img{
     margin: 0;
     text-align: center;
 
+}
+aside ul{
+    color:black !important;
+}
+aside ul li:hover{
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 70px;
+    margin-top: 16px;
+}
+h5 {
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-decoration: overline;
+    text-align: center;
+    margin: 8px;
+    padding: 9px;
+    color: white;
+}
+
+h5::first-letter{
+    text-transform: uppercase;
 }
