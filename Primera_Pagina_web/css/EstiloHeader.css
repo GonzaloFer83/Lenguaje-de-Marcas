@@ -1,18 +1,27 @@
-div#contenedor {
+div#cabecera {
     width:100%;
-    background: #f0e2e0;
+    background-color: #f0e2e0;
+    height: 75px;
+    font-family: "Verdana";
+
     text-align: center;
     position: fixed;
-
+    padding-top: 25px;
 }
 
 .site_name {
-    font-family: verdana, sans sherif;
+    font-family: "Verdana";
+    color: rgb(184, 129, 129);
+    font-weight: 700;
+	font-size: 1.2em;
 
 }
 
 .site_desc {
-    font-family: verdana, sans sherif;
+    font-family: "Verdana";
+    color:rgb(143, 113, 113);
+    font-weight: 300;
+	font-size: 0.8em;
 
 }
 
