@@ -30,6 +30,20 @@ h2 {
        
       
    }
+   .divbiografia{
+     width: 40%;
+     height: 100%;
+   float: right;
+    margin-top: 40px ;
+    
+   }
+   .fotohistorias{
+     width:70%;
+     height: 40%;
+     float: left;
+     border-radius: 20px;
+
+   }
  
    body{
        
@@ -39,6 +53,7 @@ h2 {
 
    }
    p{
+     width: 50%;
        margin-top: 1%;
        
    
