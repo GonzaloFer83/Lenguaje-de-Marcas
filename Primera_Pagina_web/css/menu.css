@@ -79,6 +79,10 @@ header label:hover {
     background: #8AA9B8; 
 }
 @media (max-width:768px){
+    aside{
+        display: none;
+    }
+
     header label{
         display:block;
     }
