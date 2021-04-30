@@ -1,9 +1,8 @@
-div#cabecera {
+header {
     width:100%;
     background-size: cover;
-    background-color: #f0e2e0;
-    background-image:url(../images/yoda_header.jpg);
-    height: 75px;
+    background: url(../images/yoda_header.jpg);
+    height: 10%;
     font-family: "Verdana";
     text-align: center;
     position: fixed;
