@@ -56,19 +56,19 @@
             <input id="direccion" type="text" name="correo" required/>
             
             <label for="codigo_postal">*Codigo Postal </label>
-            <input id="codigo_postal" placeholder="28045" type="text" name="codigo_postal" maxlength="5" required/>
+            <input id="codigo_postal" placeholder="28045" min="11111" max="99999" type="number" name="codigo_postal" maxlength="5" required/>
             <br>
             <label for="email">Correo electrónico: </label>
-            <input id="correo" placeholder="example@gmail.com" type="text" name="correo" required/>
+            <input id="correo" placeholder="example@gmail.com" type="email" name="correo" required/>
             
             <label for="telefono">Telefono: </label>
-            <input id="telefono_movil" type="number" name="telefono_movil" />
+            <input id="telefono_movil" type="number"min="111111111" max="999999999" name="telefono_movil" />
             <br>
             <label for="telefono">Telefono fijo: </label>
-            <input id="telefono_fijo" type="number" name="telefono_fijo" />
+            <input id="telefono_fijo" type="number" min="111111111" max="999999999"  name="telefono_fijo" />
             <label for="sexo">*Sexo: </label>
             <select name="sexo" id="sexo">
-                <option>Por defecto</option>
+                <option></option>
                 <option>Hombre</option>
                 <option>Mujer</option>
             </select>
