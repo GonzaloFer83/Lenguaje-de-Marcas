@@ -6,6 +6,8 @@ p {
    margin-left: 40px;
    font-weight: bold;
    box-shadow: 5px 5px 10px #333;
+   width: 50%;
+    margin-top: 1%;
 
    }
 
@@ -57,12 +59,8 @@ h2 {
          
 
    }
-   p{
-     width: 50%;
-       margin-top: 1%;
-       
-   
-   };
+  
+    };
    .margenfinal{
        padding-bottom: 5%;
    }
@@ -94,6 +92,7 @@ main *:last-child {
     width: 70%;
     text-align: justify;
     margin-left: 60px;
+    box-shadow: none;
 
   }
   .divresponsive1{
