@@ -123,6 +123,7 @@ header label:hover {
     bottom: -5rem;
     width: 3rem;
     pointer-events: none;
+    z-index: 1;
   }
   
   .back-to-top-link {
