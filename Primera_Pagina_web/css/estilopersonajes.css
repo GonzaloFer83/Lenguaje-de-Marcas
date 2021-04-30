@@ -4,10 +4,12 @@ p {
    font-size: 17px ;
    margin-left: 40px;
    font-weight: bold;
-  
+   box-shadow: 5px 5px 10px #333;
 
    }
-
+p:hover{
+  filter:blur(10px);
+}
 h2 { 
 
    font-family: Verdana;
