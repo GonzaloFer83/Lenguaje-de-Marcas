@@ -47,32 +47,33 @@
        <form>
         <fieldset><legend><b>Registrate en nuestra galaxia</b></legend>
             <label for="nombre">*Nombre: </label>
-            <input id="nombre" type="text" name="nombre"/>
+            <input id="nombre" type="text" name="nombre" required/>
 
             <label for="apellidos">*Apellidos: </label>
-            <input id="apellidos" type="text" name="apellidos"/>
+            <input id="apellidos" type="text" name="apellidos" required/>
             <br>
             <label for="direccion">*Dirección </label>
-            <input id="direccion" type="text" name="correo"/>
+            <input id="direccion" type="text" name="correo" required/>
             
             <label for="codigo_postal">*Codigo Postal </label>
-            <input id="codigo_postal" placeholder="28045" type="text" name="codigo_postal"/>
+            <input id="codigo_postal" placeholder="28045" type="text" name="codigo_postal" maxlength="5" required/>
             <br>
             <label for="email">Correo electrónico: </label>
-            <input id="correo" placeholder="example@gmail.com" type="text" name="correo"/>
+            <input id="correo" placeholder="example@gmail.com" type="text" name="correo" required/>
             
             <label for="telefono">Telefono: </label>
-            <input id="telefono_movil" type="number" name="telefono_movil"/>
+            <input id="telefono_movil" type="number" name="telefono_movil" />
             <br>
             <label for="telefono">Telefono fijo: </label>
-            <input id="telefono_fijo" type="number" name="telefono_fijo"/>
+            <input id="telefono_fijo" type="number" name="telefono_fijo" />
             <label for="sexo">*Sexo: </label>
             <select name="sexo" id="sexo">
                 <option>Por defecto</option>
                 <option>Hombre</option>
                 <option>Mujer</option>
             </select>
-            <br>
+            <input id="boton_borrar" type="reset" value="Borrar información">
+            <input id="boton_enviar" type="submit" value="Enviar información">
        </form>
     </div>
     <img width="101%" height="365px" src="images/imagen_formulario.jpg">

@@ -20,3 +20,28 @@ input{
     margin-bottom:5px;
     margin-right:170px;
 }
+input:valid,
+textarea:valid {
+    border-color: rgb(5, 163, 5);
+}
+
+input:invalid,
+textarea:invalid {
+    border-color:red;
+
+}
+
+#boton_enviar{
+    position: absolute;
+    margin-left: 640px;
+    margin-top: 20px;
+    background-color: rgb(28, 155, 49);
+}
+
+#boton_borrar{
+     position: absolute;
+     margin-left: 500px;
+     margin-top: 20px;
+     background-color: gray;
+}
+
