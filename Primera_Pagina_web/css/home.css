@@ -22,7 +22,7 @@ section {
     max-width: 70%;
     float: left;
 }
-section header {
+section div {
     background-color: black;
     height: 102px;
 }
@@ -41,7 +41,7 @@ footer{
     clear: both;
 }
 
-header img {
+div img {
     margin-top: 20px;
     margin-left: 6px;
 }
@@ -133,9 +133,9 @@ img#redes {
     margin-left: 123px;
     height: 165px;
 }
-/*..................................SECTION --> FOOTER..................................................................*/
+/*..................................SECTION --> NEW..................................................................*/
 
-section > footer > p {
+section > new > p {
     text-align: justify;
     padding: 16px;
     font-family: -webkit-pictograph;
