@@ -3,7 +3,7 @@ body{
     background-image: url(../images/fondo.jpg);
     background-size: cover;
     height: 100%;
-
+    
   }
 div#contenedor {
     margin-left: auto;
@@ -147,6 +147,7 @@ section > new > p {
     border: 2px dashed wheat;
     border-radius: 40px;
     margin-left: 10px;
+    margin-bottom: 200px;
 }
 
 
