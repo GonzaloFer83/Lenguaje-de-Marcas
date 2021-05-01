@@ -1,6 +1,6 @@
 body{
     font: 12px Arial;
-    background: url(../images/fondo.jpg);
+    background-color: rgb(114, 114, 114);
     
 }
 
@@ -35,7 +35,6 @@ textarea:invalid {
     position: absolute;
     margin-left: 640px;
     margin-top: 20px;
-    margin-bottom: 20px;
     background-color: rgb(28, 155, 49);
 }
 
@@ -43,7 +42,17 @@ textarea:invalid {
      position: absolute;
      margin-left: 500px;
      margin-top: 20px;
-     margin-bottom: 20px;
      background-color: gray;
 }
 
+#telefono_fijo{
+    margin-right: 220px;
+}
+
+#correo{
+    margin-right: 193px;
+}
+
+#nombre{
+    margin-right: 174px;
+}
