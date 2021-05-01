@@ -2,12 +2,11 @@ header {
     width:100%;
     background-size: 250px, 50px;
     background-color: #f0e2e0;
-    height: 75px;
+    height: 80px;
     font-family: "Verdana";
     text-align: center;
-    position: fixed;
-    padding-top: 20px;
-    padding-bottom: 20px; 
+    /*position: fixed;*/
+
     }
 
 

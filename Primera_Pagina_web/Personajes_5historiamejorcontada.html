@@ -7,13 +7,15 @@
         <link rel="shortcut icon" href="images/lightsaber.ico">
        <link rel="stylesheet" href="css/estilopersonajes.css">
        <link rel="stylesheet" href="css/menu.css">
+       <link rel="stylesheet" href="css/estiloheader.css">
+       <link rel="stylesheet" href="css/estilofooter.css">
        <title>Index</title>
    </head>
-   <body>
-    <div class="back-to-top-wrapper">
-        <a href="#top" class="back-to-top-link" aria-label="Scroll to Top">🔝</a>
-      </div>
-     <header id="top">
+       <header id="top">
+   
+         <h1 class="site_name"> Frikipedia Star Wars </h1>
+         <h4 class="site_desc"> Todo lo que necesitas saber sobre la saga...</h4>   
+        
        <input type="checkbox" id="btn-menu">
        <label for="btn-menu"><img src="images/lista.png" alt=""></label>
        <nav class="menu_gral">
@@ -30,20 +32,20 @@
            </li>
            <li><a href="Formulario.html">Contacto</a></li>
            <li><a href="#">La historia de Anakin</a>
-            <ul>
-                <li><a href="Personajes_5historiamejorcontada.html"> Biografía</a></li>
-                <li><a href="#padawan"> Padawan</a></li>
-                <li><a href="#duda"> Sembrando la duda</a></li>
-                <li><a href="#ladooscuro"> Caída al lado Oscuro</a></li>
-                <li><a href="#batalla"> Batalla con Obi-Wan</a></li>
-                <li><a href="#vader"> Darth Vader</a></li>
-
-            </ul>
-        </li>
+               <ul>
+                   <li><a href="Personajes_5historiamejorcontada.html"> Biografía</a></li>
+                   <li><a href="Personajes_5historiamejorcontada.html#padawan"> Padawan</a></li>
+                   <li><a href="Personajes_5historiamejorcontada.html#duda"> Sembrando la duda</a></li>
+                   <li><a href="Personajes_5historiamejorcontada.html#ladooscuro"> Caída al lado Oscuro</a></li>
+                   <li><a href="Personajes_5historiamejorcontada.html#batalla"> Batalla con Obi-Wan</a></li>
+                   <li><a href="Personajes_5historiamejorcontada.html#vader"> Darth Vader</a></li>
+   
+               </ul>
+           </li>
          </ul>
        </nav>
+     
      </header>
-
     <body background="images/fondo.jpg" >
         
         <h3 id="biografia"> Biografía  </h3>
@@ -52,7 +54,7 @@
                 <img class="fotohistorias" id="anakinbiografia" src="images/fotocarrera.jpg" alt="anakincarrera" > 
        
                </div>
-            <p>
+            <p class="comentario">
             Supuestamente concebido por los midiclorianos,
             Anakin Skywalker nació de la esclava Shmi Skywalker.
             Algunas fuentes afirmaban que Skywalker nació en el planeta desierto de Tatooine,
@@ -85,7 +87,7 @@
                 <img class="fotohistorias" id="anakinbiografia" src="images/anakinpadawan.jpg" alt="anakincarrera" > 
        
                </div>
-            <p>   
+            <p class="comentario">   
             A medida que crecía, sus habilidades volvieron a Anakin arrogante,
             pero a pesar de todo idolatraba<a href="Personajes_4Obi-wan.html"></a> a Obi-Wan Kenobi,pensando que no había nadie mejor que su maestro.
             Durante una de sus muchas aventuras, Anakin rescató a Obi-Wan cuando éste cayó en un nido de gundarks.
@@ -116,7 +118,7 @@
    
            </div>
         
-           <p>
+           <p class="comentario">
             Cuando Anakin tenía doce años, en el 29 ABY, ya había construido su primer sable de luz.
             Tras su construcción, Obi-Wan Kenobi le dijo que esa arma era su vida.
             Tres años después de la Batalla de Naboo, Skywalker quiso impresionar a sus profesores en el Templo Jedi.
@@ -137,7 +139,7 @@
         <h3 id="ladooscuro">Caída al lado oscuro </h3>
         
             
-            <p>
+            <p class="comentario">
             Tras regresar a Coruscant, Skywalker se reunió con su mujer, Padmé Amidala.
             Después de una breve bienvenida y la mención de la posible muerte de Anakin, 
             Padmé le informó de que estaba embarazada, algo que le dio inmensa alegría. 
@@ -167,7 +169,7 @@
    
            </div>
         <br>
-        <p>
+        <p class="comentario">
             En otra reunión del Consejo, Skywalker informó a los Maestros de que Palpatine
             había recibido la información de que el General Grievous se encontraba en el sistema Utapau.
             Después de que el Consejo declinara su disposición a ir a Utapau a enfrentarse a Grievous,
@@ -209,7 +211,7 @@
         
         
         <h3 id="batalla">Batalla con Obi-Wan </h3>
-        <p>
+        <p class="comentario">
 
             Después de reunirse con Amidala, Vader pronto descubrió que Obi-Wan Kenobi le había informado
             de sus acciones en el Templo Jedi. Aunque no negó las acusaciones, Vader afirmó que Kenobi 
@@ -228,7 +230,7 @@
            
                    </div>
                 
-            <p>
+            <p class="comentario">
             Al ver a su antiguo maestro, Vader asumió incorrectamente que Amidala le había traicionado trayendo
             a Kenobi para matarlo. Superado por su ira y su furia, estranguló con la Fuerza a su mujer hasta dejarla
             inconsciente, ignorando sus súplicas por su inocencia. Kenobi también intentó razonar con su antiguo aprendiz,
@@ -257,7 +259,7 @@
             por la orilla con su brazo cibernético, haciendo frente a sus graves heridas.
         </p>
         <h3 id="vader" class="margenfinal">Darth Vader</h3>
-        <p>
+        <p class="comentario">
             Aunque Vader sobrevivió, quedó horriblemente desfigurado, tanto física como mentalmente,
             y sus pulmones quedaron dañados debido a las cenizas ardientes del aire de Mustafar.
             Poco después, Darth Sidious, habiendo percibido que Vader estaba en peligro, llegó a Mustafar,
@@ -278,7 +280,7 @@
                 <img class="fotohistorias" id="Vader " src="images/darthvader.jpg"  height="80%" alt="Darth Vader" > 
        
                </div>
-        <p>       
+        <p class="comentario">       
             La desesperación de Vader se convirtió en rabia y golpeó con la Fuerza a Sidious contra una pared,
             gruñendo que su maestro le había prometido salvar a Amidala. Sidious, mientras Vader le intentaba
             estrangular sin éxito con la Fuerza, respondió que la muerte de Amidala le había proporcionado un regalo:
@@ -294,7 +296,26 @@
             como amigos, esperaba que nunca se encontrasen en una situación parecida. Acto seguido pidió a Vader que
             apartara su rabia contra los Jedi de ahora en adelante, puesto que ambos tenían trabajo por hacer.
         </p>
-        <br/>
-            <br/>
-            <br/>
-            <br/>
+        <footer >
+            <div class=caja_texto>
+              <p >Autores: Álvaro Moreno, Gonzalo Fernández, Adrián Fernández, Sergio Blázquez, Frida Abella</p>
+              <p ><a href="mailto:frikipediastarwars@gmail.com">frikipediastarwars@gmail.com</a></p>
+              <p ><a href="Pagina_no_disponible.html"> Política de privacidad </a></p>
+            </div>
+        
+            
+              <tr>
+                <td><a href="Pagina_no_disponible.html"><img class="iconos_redes" src="iconos/icono_facebook.jpg"/></a></td>
+                <td><a href="Pagina_no_disponible.html"><img class="iconos_redes" src="iconos/icono_instagram.jpg"/></a></td>
+                <td><a href="Pagina_no_disponible.html"><img class="iconos_redes" src="iconos/icono_twitter.jpg"/></a></td>
+                <td><a href="Pagina_no_disponible.html"><img class="iconos_redes" src="iconos/icono_youtube.jpg"/></a></td>	
+              </tr>
+          
+          </div>
+        
+          </footer>
+      </body>
+      
+</html>
+         
+        
