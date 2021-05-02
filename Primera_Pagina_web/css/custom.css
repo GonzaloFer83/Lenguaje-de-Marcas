@@ -1,5 +1,5 @@
 body{
-    font: 12px Arial;
+    font: 18px Arial;
     background-color: rgb(114, 114, 114);
     
 }
@@ -15,6 +15,7 @@ form{
 }
 
 input{
+    
     margin-left:20px;
     margin-top:10px;
     margin-bottom:5px;
@@ -22,6 +23,7 @@ input{
 }
 input:valid,
 textarea:valid {
+    
     border-color: rgb(5, 163, 5);
 }
 
@@ -49,7 +51,7 @@ textarea:invalid {
 
 #boton_borrar{
      position: absolute;
-     margin-left: 380px;
+     margin-left: 100px;
      margin-top: 20px;
      font-size: 20px;
      color:#d8d8d8;
