@@ -35,14 +35,31 @@ textarea:invalid {
     position: absolute;
     margin-left: 640px;
     margin-top: 20px;
-    background-color: rgb(28, 155, 49);
+    font-size: 20px;
+    color:#d8d8d8;
+    background-color: rgb(62, 102, 211);
+    padding:20px;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    z-index: 1;
+
 }
 
 #boton_borrar{
      position: absolute;
-     margin-left: 500px;
+     margin-left: 380px;
      margin-top: 20px;
-     background-color: gray;
+     font-size: 20px;
+     color:#d8d8d8;
+    background-color: rgb(221, 52, 22);
+    padding:20px;
+    border-color: #d8d8d8;
+    border-width: 3px;
+    border-style: solid;
+    border-radius:35px;
+    z-index: 1;
 }
 
 #telefono_fijo{
