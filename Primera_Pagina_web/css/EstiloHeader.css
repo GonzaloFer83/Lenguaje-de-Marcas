@@ -10,9 +10,9 @@ header {
     }
 
 .searching{
-    float:right ;
-    margin-right: 10px;
+        margin-left: 82%;    
 }
+
 .site_name {
     font-family: Verdana;
     color: rgb(184, 129, 129);
