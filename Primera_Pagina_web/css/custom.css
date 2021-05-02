@@ -1,6 +1,6 @@
 body{
-    font: 12px Arial;
-    background-color: rgb(114, 114, 114);
+    font: 18px Arial;
+    background: url(../images/fondo.jpg);
     
 }
 
@@ -33,43 +33,72 @@ textarea:invalid {
 
 #boton_enviar{
     position: absolute;
-    margin-left: 640px;
-    margin-top: 20px;
+    margin-left: 20%;
+    margin-top: -80px;
     font-size: 20px;
     color:#d8d8d8;
     background-color: rgb(62, 102, 211);
-    padding:20px;
+    padding:10px;
     border-color: #d8d8d8;
     border-width: 3px;
     border-style: solid;
     border-radius:35px;
     z-index: 1;
+    width: 15%;
 
 }
 
 #boton_borrar{
-     position: absolute;
-     margin-left: 380px;
-     margin-top: 20px;
+    position: absolute;
+     float: right;
+     margin-left: 289px;
+     margin-top: -20px;
      font-size: 20px;
      color:#d8d8d8;
     background-color: rgb(221, 52, 22);
-    padding:20px;
+    padding:10px;
     border-color: #d8d8d8;
     border-width: 3px;
     border-style: solid;
     border-radius:35px;
     z-index: 1;
-}
-
-#telefono_fijo{
-    margin-right: 220px;
-}
-
-#correo{
-    margin-right: 193px;
+    width: 15%;
 }
 
 #nombre{
-    margin-right: 174px;
+    margin-right: 157px;
+    margin-left: 36px;
+}
+#direccion{
+    margin-right: 156px;
+    margin-left: 30px;
+}
+#correo{
+    margin-right: 157px;
+    margin-left: 62px;
+
+}
+#telefono_fijo{
+    margin-right: 213px;
+    margin-left: 12px ;
+
+}
+
+
+#apellidos{
+    
+    margin-left: 52px;
+}
+
+#telefono_movil{
+    margin-left: 66px;
+}
+#sexo{
+    margin-left: 85px;
+
+}
+.fondoformulario{
+    height: 100%;
+    width: 100%;
+   align-items: center;
 }
