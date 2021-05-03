@@ -3,13 +3,18 @@
     padding: 0;
     border: o none;
     position: relative;
+
 }
 header{
     width:100%;
     background: #f0e2e0;
+    z-index:1;
+    
 }
 #btn-menu {
     display: none;
+   
+    
 }
 header label {
     display: none;
@@ -18,15 +23,19 @@ header label {
     padding: 10px;
     border-right:  1px solid #f0e2e0;
     background:  #f0e2e0;
+    
 }
 header label:hover {
     cursor: pointer;
     background: #f0e2e0;
+    
 }
 .menu_gral {
-    font-family: verdana, sans sherif;
+    font-family:Arial, sans-serif, sans sherif;
     width: 100%;
     margin-left: 1.5rem;
+
+    
 }
 .menu_gral ul {
     list-style-type: none; 
@@ -39,6 +48,7 @@ header label:hover {
     width: 20%;
     position: relative;
     background: #f0e2e0;
+    
 }
 .menu_gral li a {
     display: block;
@@ -51,12 +61,14 @@ header label:hover {
 .menu_gral li:hover a, #menu_gral li a:focus {
     background: #82c5e4;
     color: #fff;
+    
 }
 
 .menu_gral li ul {
     position: absolute;
     width: 0;
     overflow: hidden;
+    
 }
 .menu_gral li:hover ul, #menu_gral li:focus ul {
     width: 100%;
@@ -67,6 +79,7 @@ header label:hover {
 .menu_gral li li {
     display: block;
     width: 100%;
+    
 }
 .menu_gral li:hover li a, #menu_gral li:focus li a {
     font-family: monospace;
@@ -74,9 +87,11 @@ header label:hover {
     line-height: 1.7rem;
     border-top: 1px solid #e5e5e5;
     background: #444;
+    
 }
 .menu_gral li li a:hover, #menu_gral li li a:focus {
     background: #8AA9B8; 
+    
 }
 @media (max-width:768px){
     aside{
@@ -85,15 +100,29 @@ header label:hover {
 
     header label{
         display:block;
+        
+        
     }
     .menu_gral {
+        
         position: absolute;
         background: #f0e2e0;
-        width: 40%;
+        width: 50%;
         margin-left: -40%;
         transition:all 0.3s;
+        
+    }
+    .menu_gral > ul li {
+        
+        display:block;
+        width: 100%;
+        position: relative;
+        background: #f0e2e0;
+        
     }
     .menu_gral ul {
+        
+        margin:10px;
         list-style-type: none; 
         text-align: center;
         font-size: 0;
@@ -101,10 +130,12 @@ header label:hover {
         flex-direction:row;
     }
     .menu li {
+        
         border-top: 1 px solid #fff;
         position:relative;
     }
     .menu_gral > ul li {
+        
         display: flex;
         width: 50%;
         position:static;
@@ -113,6 +144,20 @@ header label:hover {
     
     #btn-menu:checked ~ .menu_gral {
         margin: 0;
+    }
+    .menu_gral li:hover ul, #menu_gral li:focus ul {
+        width: 120%;
+        margin: 0 4rem 4rem 5rem;
+        padding: 0 4rem 4rem 4rem;
+    }
+    .menu_gral li:hover li a, #menu_gral li:focus li a {
+        font-family: monospace;
+        width:100%;
+        font-size: .9rem;
+        line-height: 2rem;
+        border-top: 2px solid #e5e5e5;
+        background: #444;
+        
     }
 }
 

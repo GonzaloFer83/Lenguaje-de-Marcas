@@ -43,7 +43,7 @@ textarea:invalid {
     border-width: 3px;
     border-style: solid;
     border-radius:35px;
-    z-index: 1;
+
     width: 15%;
 
 }
@@ -61,7 +61,7 @@ textarea:invalid {
     border-width: 3px;
     border-style: solid;
     border-radius:35px;
-    z-index: 1;
+
     width: 15%;
 }
 
