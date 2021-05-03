@@ -2,7 +2,7 @@ header {
     width:100%;
     background-size: 250px, 50px;
     background-color: #f0e2e0;
-    height: 100px;
+    height: 120px;
     font-family: "Verdana";
     text-align: center;
     /*position: fixed;*/
@@ -10,7 +10,7 @@ header {
     }
 
 .searching{
-        margin-left: 82%;    
+        margin-left: 720px;
 }
 
 .site_name {
