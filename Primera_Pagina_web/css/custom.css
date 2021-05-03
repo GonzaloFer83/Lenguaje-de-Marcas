@@ -102,3 +102,13 @@ textarea:invalid {
     width: 100%;
    align-items: center;
 }
+
+@media (max-width: 768px){
+    .botonresponsiveenviar{
+        position: relative;
+        margin-left: 120px;
+        margin-top: 10px;
+        
+    }
+
+}
