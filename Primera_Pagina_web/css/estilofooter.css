@@ -12,7 +12,7 @@ footer {
     /* display: inline; */
 }
 
-
+/*Diseño enlaces*/
 .caja_texto{
     text-align: center;
     font-family: Verdana;
@@ -46,7 +46,7 @@ footer {
         color: rgb(143, 113, 113);
       
     }
-    
+/*Tam imagenes redes sociales*/    
     .iconos_redes{
         height: 20px;
         width: 20px;
