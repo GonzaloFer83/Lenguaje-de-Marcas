@@ -1,21 +1,25 @@
 * {
+    /* */
     margin: 0;
     padding: 0;
     border: none;
     position: relative;
 
 }
+/*Pondremos que ocupe todo lo que pueda el menu y que se vea siempre gracias al z-index */
 header{
     width:100%;
     background: #f0e2e0;
     z-index:1;
     
 }
+/*Haremos que desaparezca el boton y que sea visible solo cuando se minimice la pantalla */
 #btn-menu {
     display: none;
    
     
 }
+/*todas las opciones de cada boton estando con el raton encima, pichando etc */
 header label {
     display: none;
     width: 30px;
@@ -93,6 +97,7 @@ header label:hover {
     background: #8AA9B8; 
     
 }
+/*Aqui pondremos las opciones para cuando la pantalla sea menor de 768px */
 @media (max-width:768px){
     aside{
         display: none;
@@ -104,7 +109,7 @@ header label:hover {
         
     }
     .menu_gral {
-        
+        /*Posicion del menu para que no sea visible  */
         position: absolute;
         background: #f0e2e0;
         width: 50%;
@@ -141,7 +146,7 @@ header label:hover {
         position:static;
         background: #f0e2e0;
     }
-    
+    /*cuando pulsamos el boton el margin sera 0 y aparecera por la izquierda el menu*/
     #btn-menu:checked ~ .menu_gral {
         margin: 0;
     }
@@ -160,7 +165,7 @@ header label:hover {
         
     }
 }
-
+/*Propiedades del boton de "TOP" para no usar el raton para subir hasta la parte de arriba, solo se pulsa hasta la etiqueta de top  */
 .back-to-top-wrapper {
     position: absolute;
     top: 90vh;
