@@ -87,7 +87,7 @@ main *:last-child {
     background-image: url(../images/fondo.jpg);
     background-size: cover;
     height: 100%;
-
+    
   }
   .comentario{
     width: 70%;

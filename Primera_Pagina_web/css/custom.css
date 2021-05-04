@@ -21,6 +21,7 @@ input{
     margin-bottom:5px;
     margin-right:170px;
 }
+
 input:valid,
 textarea:valid {
     border-color: rgb(5, 163, 5);
@@ -34,9 +35,9 @@ textarea:invalid {
 
 #boton_enviar{
     position: absolute;
-    margin-left: 20%;
+    margin-left: 21%;
     margin-top: -80px;
-    font-size: 20px;
+    font-size: 15px;
     color:#d8d8d8;
     background-color: rgb(62, 102, 211);
     padding:10px;
@@ -45,16 +46,16 @@ textarea:invalid {
     border-style: solid;
     border-radius:35px;
 
-    width: 15%;
+    width: 12%;
 
 }
 
 #boton_borrar{
     position: absolute;
      float: right;
-     margin-left: 289px;
+     margin-left: 284px;
      margin-top: -20px;
-     font-size: 20px;
+     font-size: 15px;
      color:#d8d8d8;
     background-color: rgb(221, 52, 22);
     padding:10px;
@@ -63,7 +64,7 @@ textarea:invalid {
     border-style: solid;
     border-radius:35px;
 
-    width: 15%;
+    width: 12%;
 }
 
 #nombre{
@@ -105,11 +106,55 @@ textarea:invalid {
 }
 
 @media (max-width: 768px){
-    .botonresponsiveenviar{
+    #boton_enviar{
         position: relative;
-        margin-left: 120px;
+        margin-left: 30px;
         margin-top: 10px;
-        
+        width: 13%;
     }
 
+    #boton_borrar{
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 13%;
+    }
+
+    h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    form{
+        width: 97%;
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    #nombre{
+        margin-left: 60px;
+    }
+
+    #apellidos{
+        margin-right: 0px;
+    }
+
+    #direccion{
+        margin-left: 56px;
+    }
+
+    #correo{
+        margin-left: 87px;
+    }
+
+    #telefono_movil{
+        margin-left: 64px;
+    }
+
+    #telefono_fijo{
+        margin-left: 36px;
+    }
+
+    #imagen_form{
+        width: 97%;
+    }
 }
