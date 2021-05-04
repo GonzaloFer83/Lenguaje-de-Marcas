@@ -1,17 +1,20 @@
+
 header {
     width:100%;
     background-size: 250px, 50px; 
     /*background-color: #e0c4c0; */
     background: linear-gradient(#d8bcbcef,  #ecc5bf);
-    height: 125px;
+    height: 127px;
     font-family: "Verdana";
     text-align: center;
-    /*position: fixed; */
+    /*position: fixed; */ 
+} 
 
-    }
 
 .searching{
-        margin-left: 720px;
+        margin-left: 860px;
+        margin-bottom: 50 px;
+        padding-bottom: 50 px;
 }
 
 .site_name {
@@ -36,13 +39,13 @@ header {
     text-decoration-color: saddlebrown;
 }
 
-
+/*
 .imagen_header {
     height: 67%;
     width:  50 px;
     float: left;
   
-} 
+} */
 
 @media (max-width: 768px) {
     .divresponsive1 {
